@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>How to Build a Successful Game Dev Business – Free Preview Modules</title>
+  <title>How to Build an Indie Game Dev Business — Free Modules</title>
   <style>
     * {
       margin: 0;
@@ -13,8 +13,8 @@
 
     body {
       font-family: 'Segoe UI', sans-serif;
-      background-color: #e3f2fd;
-      color: #333;
+      background-color: #e8f2ff;
+      color: #2c2c2c;
       line-height: 1.6;
     }
 
@@ -25,32 +25,72 @@
     }
 
     .promo-box {
-      background-color: #fff;
-      border-radius: 8px;
+      background-color: #ffffff;
+      border-radius: 10px;
       padding: 2rem;
-      box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
       display: flex;
       flex-direction: column;
-      gap: 1.5rem;
+      gap: 2rem;
     }
 
     .promo-box img {
       max-width: 100%;
       height: auto;
-      border-radius: 6px;
+      border-radius: 8px;
     }
 
     .promo-title {
-      font-size: 2rem;
+      font-size: 2.2rem;
       font-weight: bold;
       color: #0d47a1;
       text-align: center;
     }
 
     .promo-description {
-      font-size: 1.1rem;
-      color: #444;
+      font-size: 1.2rem;
+      color: #ffffff;
+      background-color: #ff6f00;
       text-align: center;
+      padding: 0.6rem 1rem;
+      border-radius: 8px;
+      font-weight: bold;
+      box-shadow: 0 4px 10px rgba(255,111,0,0.3);
+      max-width: fit-content;
+      margin: 0 auto;
+    }
+
+    .story-section {
+      background-color: #f9fbff;
+      padding: 1.5rem;
+      border-radius: 8px;
+    }
+
+    .story-title {
+      font-size: 1.4rem;
+      font-weight: bold;
+      color: #1565c0;
+      margin-bottom: 1rem;
+    }
+
+    .story-text {
+      font-size: 1.05rem;
+      color: #333;
+      line-height: 1.7;
+    }
+
+    .video-container {
+      margin-top: 1.5rem;
+      display: flex;
+      justify-content: center;
+    }
+
+    .video-frame {
+      width: 100%;
+      max-width: 720px;
+      height: 405px;
+      border: none;
+      border-radius: 8px;
     }
 
     .cta-container {
@@ -63,26 +103,17 @@
     .cta-button {
       background-color: #0d47a1;
       color: #fff;
-      padding: 0.75rem 1.5rem;
+      padding: 0.8rem 1.8rem;
       border: none;
-      border-radius: 4px;
+      border-radius: 6px;
       font-size: 1rem;
-      cursor: pointer;
-      text-align: center;
-      transition: background-color 0.3s ease;
-      width: fit-content;
-      outline: none;
       text-decoration: none;
+      transition: background-color 0.3s ease;
       display: inline-block;
     }
 
     .cta-button:hover {
       background-color: #1565c0;
-    }
-
-    .cta-button:focus {
-      outline: none;
-      box-shadow: 0 0 0 3px rgba(13, 71, 161, 0.3);
     }
 
     .buy-button {
@@ -94,10 +125,9 @@
     }
 
     .learn-section {
-      margin-top: 1rem;
-      padding: 1.5rem;
       background-color: #eef2f7;
-      border-radius: 6px;
+      padding: 1.5rem;
+      border-radius: 8px;
     }
 
     .learn-title {
@@ -119,7 +149,7 @@
       }
 
       .promo-title {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
       }
 
       .promo-description {
@@ -130,6 +160,10 @@
         width: 100%;
         text-align: center;
       }
+
+      .video-frame {
+        height: 280px;
+      }
     }
   </style>
 </head>
@@ -137,29 +171,42 @@
   <main class="container">
     <section class="promo-box">
       <img src="assests/Promotion Image - Box.png" alt="Course Preview Image" />
-      <h1 class="promo-title">How to Build a Successful Game Dev Business – Free Preview Modules</h1>
-      <p class="promo-description">
-        Learn the practical skills you need to build a successful game dev business — starting today. 
-        The full course does come with a cost, but you’ll get access to the first two modules for free 
-        so you can explore the content and see if it’s the right fit for you.
-      </p>
-      
+      <h1 class="promo-title">How to Build an Indie Game Dev Business</h1>
+      <h2 class="promo-description">Get the First 2 Modules for Free Now!</h2>
+
+      <div class="story-section">
+        <h2 class="story-title">👾 From Mistakes to Mastery — My Story</h2>
+        <p class="story-text">
+          I launched my first project with zero business knowledge. I thought making games was all about creativity and code. I ended up feeling burned out and confused on why nobody played my game.  
+          <br /><br />
+          I learned the hard way that building a successful studio takes more than just passion. You need systems. You need marketing. You need strategy.  
+          <br /><br />
+          That’s why I created this course. It’s everything I wish I had when I started — and now you can access the first two modules completely free.  
+          <br /><br />
+          If you're serious about creating a game dev business that survives and thrives, the full course is hands-down worth it.
+        </p>
+      </div>
+
+      <div class="video-container">
+        <iframe class="video-frame" src="https://www.youtube.com/embed/placeholder" allowfullscreen></iframe>
+      </div>
+
       <div class="cta-container">
-        <a href="https://aleksboboychev.github.io/asgamedev/mail.html" class="cta-button" role="button" aria-label="Sign up for free modules">
-          Sign Up to Receive the First Two Free Modules
+        <a href="https://aleksboboychev.github.io/asgamedev/mail.html" class="cta-button" role="button">
+          Get Your Free Modules
         </a>
-        <a href="#buy" class="cta-button buy-button" role="button" aria-label="Buy the full course">
-          Buy the Full Course
+        <a href="#buy" class="cta-button buy-button" role="button">
+          Unlock the Full Course
         </a>
       </div>
 
       <div class="learn-section">
-        <p class="learn-title">📚 What You'll Learn Upon Purchasing the Full Course:</p>
+        <p class="learn-title">🎓 What You’ll Learn in the Full Course:</p>
         <ul class="learn-list">
-          <li><strong>Master Core Business Foundations:</strong> Build your studio on solid ground with proven strategies.</li>
-          <li><strong>Automate Operations Efficiently:</strong> Save time using smart tools and streamlined workflows.</li>
-          <li><strong>Interactive Quizzes & Practical Modules:</strong> Reinforce your skills and knowledge with active learning.</li>
-          <li><strong>Scale & Monetize with Confidence:</strong> Grow your audience and release commercially viable titles step by step.</li>
+          <li><strong>Strategic Foundations:</strong> Set up your studio for long-term success.</li>
+          <li><strong>Smart Automation:</strong> Streamline daily workflows to save time.</li>
+          <li><strong>Marketing & Monetization:</strong> Build your audience and earn revenue confidently.</li>
+          <li><strong>Real-World Projects:</strong> Learn by doing — quizzes, frameworks, and business challenges.</li>
         </ul>
       </div>
     </section>
